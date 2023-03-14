@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
+// cards for projects
+import React from "react";
 
-export default class Project extends Component {
-  render() {
-    return (
-      <div>
-        <div className="card" style={{width: "18rem"}}>
-  {/* <img src="..." class="card-img-top" alt="..."> */}
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+function Card(props) {
+  return (
+    <div className="card text-center">
+      <div className="card-header">
+        <h2>{props.title}</h2>
       </div>
-    )
-  }
+      <img src={props.image}></img>
+      <div className="card-body">{props.description}</div>
+    <a href={props.url} >{props.title}</a>
+    </div>
+  );
 }
+
+export default Card;
+

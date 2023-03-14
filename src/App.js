@@ -7,7 +7,7 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import{BrowserRouter,Routes,Route, Router} from "react-router-dom";
-import React from 'react';
+
 
 
 function App() {

@@ -5,3 +5,78 @@
 ul {
   list-style-type: none;
 }
+
+li {
+  margin: 15px;
+  color: black;
+}
+
+link:active {
+  color: bisque;
+}
+
+link:visited {
+  text-decoration: none;
+}
+
+span:focus{
+  color:bisque;
+}
+
+span{
+  color: black;
+}
+
+span:active {
+  color: bisque;
+}
+
+.card-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(50% - 1rem);
+  margin-bottom: 1rem;
+}
+
+.myPic {
+  max-width: 17%;
+  height: auto;
+  justify-content: center;
+  border-radius: 20%;
+}
+
+.gitLogo {
+  max-width: 30px;
+}
+
+.linkLogo {
+  max-width: 40px;
+}
+
+.instaLogo {
+  max-width: 33px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.linkStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
