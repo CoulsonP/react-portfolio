@@ -90,3 +90,42 @@ span:active {
   text-align: left;
   margin: 10px;
 }
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
+  height: 2rem;
+  margin: 0 auto;
+}
+
+.whole-form {
+  margin: 30px;
+}

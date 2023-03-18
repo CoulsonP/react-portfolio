@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <h2 className='topAbout'>About me</h2>
+        <h4 className='topAbout'>About Me</h4>
         <img className='myPic' src={process.env.PUBLIC_URL + '/IMG_9040.jpg'} alt="profile pic"/>
         <hr></hr>
         <p className='aboutMePar'>
