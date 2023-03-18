@@ -8,6 +8,7 @@ body {
   text-align: center;
 }
 
+/* nav styling */
 ul {
   list-style-type: none;
 }
@@ -28,6 +29,7 @@ span:active {
   color: bisque;
 }
 
+/* card styling */
 .card-columns {
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +41,14 @@ span:active {
   margin-bottom: 1rem;
 }
 
+.card-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* picture styling */
 .myPic {
   max-width: 17%;
   height: auto;
@@ -46,6 +56,7 @@ span:active {
   border-radius: 20%;
 }
 
+/* footer link profiles */
 .gitLogo {
   max-width: 30px;
 }
@@ -65,13 +76,6 @@ span:active {
   justify-content: center;
 }
 
-.card-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .linkStyle {
   display: flex;
   flex-direction: row;
@@ -86,11 +90,13 @@ span:active {
   margin: 25px;
 }
 
+/* header styling */
 .header{
   text-align: left;
   margin: 10px;
 }
 
+/* styling for form */
 .form-container {
   display: flex;
   justify-content: center;

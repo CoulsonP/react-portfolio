@@ -43,14 +43,13 @@ export default class Contact extends Component {
       alert('Please fill in all required fields.');
     } else {
       alert('Thank you for submitting the form.');
-      // TODO: Send form data to server
     }
   }
 
   render() {
     return (
       <div className='whole-form'>
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name</label>
