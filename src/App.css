@@ -135,3 +135,20 @@ form {
 .whole-form {
   margin: 30px;
 }
+
+/* resume button */
+.resume-button {
+  margin: 20px;
+}
+
+/* resume */
+
+.resume-container {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.resume-container li {
+  margin: 1px;
+}
