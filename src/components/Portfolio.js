@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Project from './Project'
+import Project from './Project';
 
 export default function Portfolio() {
  
@@ -7,8 +7,9 @@ export default function Portfolio() {
       {
         title: "Javascript test",
         image: "https://www.wisdomgeek.com/wp-content/uploads/2020/11/unit-test-private-non-exported-function-javascript-1280x720.jpeg",
-        description: "placeholder",
+        description: "This application ",
         url: "https://coulsonp.github.io/JavaScript-Test/",
+        repo: "https://github.com/CoulsonP/JavaScript-Test",
       },
       {
         title: "Weather Forecast",

@@ -10,6 +10,7 @@ function Card(props) {
       <img src={props.image}></img>
       <div className="card-body">{props.description}</div>
     <a href={props.url} >{props.title}</a>
+    {props.repo && <a href="{props.repo}">Github Repo</a>}
     </div>
   );
 }
