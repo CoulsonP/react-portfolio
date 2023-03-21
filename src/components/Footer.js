@@ -12,7 +12,7 @@ export default class Footer extends Component {
 					rel="noopener noreferrer"
 				>
 					<img
-					 src='Screenshot 2023-03-13 at 8.16.18 PM.png'
+					 src= {process.env.PUBLIC_URL + '/Screenshot 2023-03-13 at 8.16.18 PM.png'}
 						alt="Github"
 						className="gitLogo"
 					></img>
@@ -25,7 +25,7 @@ export default class Footer extends Component {
 					rel="noopener noreferrer"
 				>
 					<img
-						src="/Screenshot 2023-03-13 at 7.58.05 PM.png"
+						src= {process.env.PUBLIC_URL + '/Screenshot 2023-03-13 at 7.58.05 PM.png'}
 						alt="LinkedIn"
 						className="linkLogo"
 					></img>
@@ -38,7 +38,7 @@ export default class Footer extends Component {
 					rel="noopener noreferrer"
 				>
 					<img
-						src="/Screenshot 2023-03-13 at 8.26.34 PM.png"
+						src= {process.env.PUBLIC_URL + '/Screenshot 2023-03-13 at 8.26.34 PM.png'}
 						alt="Instagram"
 						className="instaLogo"
 					></img>
